@@ -1,0 +1,77 @@
+/* Mengatur font dan background halaman */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Kotak utama aplikasi */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+}
+
+.header h2 {
+  color: #7f8c8d;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Baris Info (Jumlah & Jam) */
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e8f4f8;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #2980b9;
+  font-weight: 500;
+}
+
+.jam {
+  font-size: 1.2rem;
+  color: #c0392b;
+  font-family: monospace; /* Agar angka jam sejajar rapi */
+}
+
+/* Desain Tabel */
+.tabel-mahasiswa {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabel-mahasiswa th,
+.tabel-mahasiswa td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabel-mahasiswa th {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: 600;
+}
+
+.tabel-mahasiswa tr:hover {
+  background-color: #f9f9f9;
+}
